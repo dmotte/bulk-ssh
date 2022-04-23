@@ -7,6 +7,6 @@ This is only an example. You should modify these scripts to suit your needs.
 ## Usage
 
 ```bash
-read -p "Password: " -s SSH_PASSWORD && export SSH_PASSWORD
+read -p "Password: " -s SSHPASS && export SSHPASS
 ./main.sh | tee output.txt
 ```
