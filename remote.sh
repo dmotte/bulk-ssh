@@ -2,4 +2,4 @@
 
 set -e
 
-lsb_release -d
+cat /etc/os-release
